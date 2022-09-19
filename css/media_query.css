@@ -42,6 +42,15 @@
   #quote .container {
     display: flex;
   }
+
+  /* Section 6 Call to Action */
+  /* Footer */
+  #call-to-action .container,
+  footer .container{
+    width: 60%;
+    margin: 0 auto;
+  }
+
 }
 
 /* DESKTOP */
@@ -86,4 +95,8 @@
   #benefits .cards .card {
     width: calc(100% / 3 - var(--gap-card));
   }
+
+  /* Section 6 Call to Action */
+
+  /* Footer */
 }

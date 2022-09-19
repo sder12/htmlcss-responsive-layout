@@ -123,4 +123,13 @@ header {
    height: 100px; 
 }
 
+/* Section 6 CTA */
+#call-to-action{
+  background-color: var(--secondary-color);
+}
+
 /* FOOTER */
+footer{
+  /* DEBUG */
+  background-color: lightslategray;
+}
