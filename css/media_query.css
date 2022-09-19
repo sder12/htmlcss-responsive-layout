@@ -5,7 +5,7 @@
     width: 90%;
     margin: 0 auto;
   }
-
+  /* MAIN */
   /* Section 1 About us */
   #about-us .cards {
     display: flex;
@@ -19,6 +19,10 @@
   }
   #about-us .cards .card:first-child {
     width: calc((100% / 3) * 2 - (var(--gap-card) / 3));
+  }
+  /*Section 3 Partners*/
+  #partners .col .card{
+    display: flex;
   }
 
 }
@@ -58,4 +62,6 @@
   #strategic .card-txt{
     margin-bottom: 0;
   }
+  
+  /*Section 3 Partners*/
 }

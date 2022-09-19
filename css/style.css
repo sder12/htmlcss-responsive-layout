@@ -37,13 +37,16 @@ header {
 /* MAIN */
 /* Section Common */
 #about-us .cards .card,
-#strategic .card{
+#strategic .card,
+#partners .card {
   border-radius: var(--border-radius-mini);
   padding: var(--padding-cards);
 }
 #about-us .cards .card:not(:last-child),
-#strategic .card-txt{
-  margin-bottom: var(--mb-cards); 
+#strategic .card-txt,
+#partners .card:not(:last-child),
+#partners .partners-txt {
+  margin-bottom: var(--mb-cards);
 }
 
 /* Section 1 About us */
@@ -68,17 +71,36 @@ header {
 }
 
 /* Section 2 Strategic Planning */
-#strategic{
+#strategic {
   background-color: var(--secondary-color);
- 
 }
 
 #strategic .card,
-#strategic .card-txt{
-    /* DEBUG */
-    background-color: rgb(255, 139, 156);
-    border: var(--black-border);
-    height: 200px;
+#strategic .card-txt {
+  /* DEBUG */
+  background-color: rgb(255, 139, 156);
+  border: var(--black-border);
+  height: 200px;
+}
+
+/*Section 3 Partners*/
+#partners .card {
+  background-color: var(--secondary-color);
+  /* DEBUG */
+  border: var(--black-border);
+  height: 200px;
+}
+
+#partners .partner-img {
+  /* DEBUG */
+  background-color: rgb(255, 139, 156);
+  border: var(--black-border);  
+}
+
+#partners .partner-quote {
+  /* DEBUG */
+  background-color: rgb(255, 139, 156);
+  border: var(--black-border);  
 }
 
 
