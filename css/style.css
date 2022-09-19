@@ -57,7 +57,6 @@ header {
   background-color: var(--light-primary-color);
   /* DEBUG */
   border: var(--black-border);
-  height: 400px;
 }
 
 #about-us .card-img {
@@ -83,7 +82,6 @@ header {
   /* DEBUG */
   background-color: rgb(255, 139, 156);
   border: var(--black-border);
-  height: 200px;
 }
 
 /*Section 3 Partners*/
@@ -91,7 +89,6 @@ header {
   background-color: var(--secondary-color);
   /* DEBUG */
   border: var(--black-border);
-  height: 200px;
 }
 
 #partners .partner-img {
@@ -120,7 +117,6 @@ header {
    /* DEBUG */
    background-color: rgb(255, 139, 156);
    border: var(--black-border); 
-   height: 100px; 
 }
 
 /* Section 6 CTA */
@@ -132,4 +128,13 @@ header {
 footer{
   /* DEBUG */
   background-color: lightslategray;
+}
+
+
+/* IMAGES */
+#partners .partner-img img{
+  width: 20%;
+}
+#quote .quote-img img{
+  width: 10%;
 }
