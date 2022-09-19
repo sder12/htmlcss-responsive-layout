@@ -38,14 +38,17 @@ header {
 /* Section Common */
 #about-us .cards .card,
 #strategic .card,
-#partners .card {
+#partners .card,
+#benefits .card {
   border-radius: var(--border-radius-mini);
   padding: var(--padding-cards);
 }
+
 #about-us .cards .card:not(:last-child),
 #strategic .card-txt,
 #partners .card:not(:last-child),
-#partners .partners-txt {
+#partners .partners-txt,
+#benefits .card:not(:last-child) {
   margin-bottom: var(--mb-cards);
 }
 
@@ -101,6 +104,14 @@ header {
   /* DEBUG */
   background-color: rgb(255, 139, 156);
   border: var(--black-border);  
+}
+
+/*Section 4 Partners*/
+#benefits{
+  background-color: var(--secondary-color);
+}
+#benefits .card{
+  background-color: var(--white-color);
 }
 
 

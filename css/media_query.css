@@ -21,10 +21,22 @@
     width: calc((100% / 3) * 2 - (var(--gap-card) / 3));
   }
   /*Section 3 Partners*/
-  #partners .col .card{
+  #partners .col .card {
     display: flex;
   }
-
+  /*Section 4 Partners*/
+  #benefits .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: var(--gap-card);
+  }
+  #benefits .cards .card {
+    width: calc(100% / 2 - var(--gap-card));
+  }
+  #benefits .card:not(:last-child) {
+    margin-bottom: 0;
+  }
 }
 
 /* DESKTOP */
@@ -48,20 +60,24 @@
     justify-content: space-between;
     gap: 0.5em;
   }
-  #about-us .card-img{
+  #about-us .card-img {
     margin-top: 0;
   }
-  
+
   /*Section 2 Strategic Planning*/
-  #strategic .row{
+  #strategic .row {
     display: flex;
     justify-content: space-between;
     gap: 1em;
   }
 
-  #strategic .card-txt{
+  #strategic .card-txt {
     margin-bottom: 0;
   }
-  
+
   /*Section 3 Partners*/
+
+  #benefits .cards .card {
+    width: calc(100% / 3 - var(--gap-card));
+  }
 }
