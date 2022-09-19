@@ -2,6 +2,7 @@
 .container {
   width: 85%;
   margin: 0 auto;
+  padding: 2em 0;
   /* DEBUG */
   border: var(--black-border);
 }
@@ -34,29 +35,51 @@ header {
   display: none;
 }
 /* MAIN */
-
-/* Section 1 About us */
-.cards .card {
-  background-color: var(--light-primary-color);
+/* Section Common */
+#about-us .cards .card,
+#strategic .card{
   border-radius: var(--border-radius-mini);
   padding: var(--padding-cards);
-  margin-bottom: var(--mb-cards);
+}
+#about-us .cards .card:not(:last-child),
+#strategic .card-txt{
+  margin-bottom: var(--mb-cards); 
+}
+
+/* Section 1 About us */
+#about-us .cards .card {
+  background-color: var(--light-primary-color);
   /* DEBUG */
   border: var(--black-border);
   height: 400px;
 }
 
-.card-img {
+#about-us .card-img {
   margin-top: 1em;
   /* DEBUG */
   background-color: lightpink;
   border: var(--black-border);
 }
 
-.card-text {
+#about-us .card-text {
   /* DEBUG */
   background-color: rgb(255, 139, 156);
   border: var(--black-border);
 }
+
+/* Section 2 Strategic Planning */
+#strategic{
+  background-color: var(--secondary-color);
+ 
+}
+
+#strategic .card,
+#strategic .card-txt{
+    /* DEBUG */
+    background-color: rgb(255, 139, 156);
+    border: var(--black-border);
+    height: 200px;
+}
+
 
 /* FOOTER */

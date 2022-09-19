@@ -7,17 +7,17 @@
   }
 
   /* Section 1 About us */
-  .cards {
+  #about-us .cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 1em;
   }
-  .cards .card {
+  #about-us .cards .card {
     width: calc(100% / 3 - var(--gap-card));
     margin-bottom: calc(var(--gap-card) / 3);
   }
-  .cards .card:first-child {
+  #about-us .cards .card:first-child {
     width: calc((100% / 3) * 2 - (var(--gap-card) / 3));
   }
 
@@ -29,7 +29,7 @@
   .container {
     width: 90%;
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 1100px;
   }
   .hamburger {
     display: none;
@@ -39,12 +39,23 @@
   }
 
   /*Section 1 About us*/
-  .card:first-child {
+  #about-us .card:first-child {
     display: flex;
     justify-content: space-between;
     gap: 0.5em;
   }
-  .card-img {
+  #about-us .card-img{
     margin-top: 0;
+  }
+  
+  /*Section 2 Strategic Planning*/
+  #strategic .row{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+  }
+
+  #strategic .card-txt{
+    margin-bottom: 0;
   }
 }
