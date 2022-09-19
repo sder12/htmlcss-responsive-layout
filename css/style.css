@@ -94,47 +94,77 @@ header {
 #partners .partner-img {
   /* DEBUG */
   background-color: rgb(255, 139, 156);
-  border: var(--black-border);  
+  border: var(--black-border);
 }
 
 #partners .partner-quote {
   /* DEBUG */
   background-color: rgb(255, 139, 156);
-  border: var(--black-border);  
+  border: var(--black-border);
 }
 
 /*Section 4 Partners*/
-#benefits{
+#benefits {
   background-color: var(--secondary-color);
 }
-#benefits .card{
+#benefits .card {
   background-color: var(--white-color);
 }
 
 /*Section 5 Quote*/
 #quote .quote-txt,
-#quote .quote-image{
-   /* DEBUG */
-   background-color: rgb(255, 139, 156);
-   border: var(--black-border); 
+#quote .quote-image {
+  /* DEBUG */
+  background-color: rgb(255, 139, 156);
+  border: var(--black-border);
 }
 
 /* Section 6 CTA */
-#call-to-action{
+#call-to-action {
   background-color: var(--secondary-color);
 }
 
 /* FOOTER */
-footer{
+footer {
   /* DEBUG */
   background-color: lightslategray;
 }
 
-
 /* IMAGES */
-#partners .partner-img img{
+#partners .partner-img img {
   width: 20%;
 }
-#quote .quote-img img{
+#quote .quote-img img {
   width: 10%;
+}
+
+/* BUTTONS */
+.btn {
+  padding: 1em 2em;
+  border-radius: 4em;  
+  display: inline-block;
+  /* DEBUG */
+  margin: 1em 0;
+}
+.btn-blue {
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+}
+.btn-purple {
+  background-color: var(--secondary-color);
+  color: white;
+}
+.btn-white {
+  background-color: white;
+  color: var(--secondary-color);
+}
+.btn-blue{
+  background-color: var(--primary-color);
+  color: white;
+}
+.btn-round {
+  padding: 1.5em 1.7em;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  color: black;
 }
