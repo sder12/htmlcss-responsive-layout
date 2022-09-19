@@ -114,5 +114,13 @@ header {
   background-color: var(--white-color);
 }
 
+/*Section 5 Quote*/
+#quote .quote-txt,
+#quote .quote-image{
+   /* DEBUG */
+   background-color: rgb(255, 139, 156);
+   border: var(--black-border); 
+   height: 100px; 
+}
 
 /* FOOTER */
