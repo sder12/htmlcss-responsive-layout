@@ -146,6 +146,12 @@ footer {
   /* DEBUG */
   margin: 1em 0;
 }
+.btn-white-black{
+  padding: 1em 2em;
+  border-radius: 4em;  
+  background-color: white;
+  color: black;
+}
 .btn-blue {
   background-color: var(--secondary-color);
   color: var(--white-color);
@@ -168,3 +174,4 @@ footer {
   background-color: var(--secondary-color);
   color: black;
 }
+
