@@ -25,6 +25,13 @@ html{
     /* Border */
     --black-border: 1px solid black;
     --white-border: 1px solid white;
+    /* Border-radius */
+    --border-radius-mini: 1.5em;
+    --border-radius-big: 3em;
+
+    /* Margin */
+    --mb-cards: 2em;
+    --padding-cards: 1.5em;
 }
 
 

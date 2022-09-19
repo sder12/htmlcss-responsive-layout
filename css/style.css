@@ -2,12 +2,15 @@
 .container {
   width: 85%;
   margin: 0 auto;
+  /* DEBUG */
+  border: var(--black-border);
+}
+
+header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
-  /* DEBUG */
-  border: var(--black-border);
 }
 
 header {
@@ -27,9 +30,32 @@ header {
   color: var(--white-color);
 }
 
-.navigation{
-    display: none;
+.navigation {
+  display: none;
 }
 /* MAIN */
+
+/* Section 1 About us */
+.cards .card {
+  background-color: var(--light-primary-color);
+  border-radius: var(--border-radius-mini);
+  padding: var(--padding-cards);
+  margin-bottom: var(--mb-cards);
+  /* DEBUG */
+  border: var(--black-border);
+  height: 400px;
+}
+
+.card-img {
+  /* DEBUG */
+  background-color: lightpink;
+  border: var(--black-border);
+}
+
+.card-text {
+  /* DEBUG */
+  background-color: rgb(255, 139, 156);
+  border: var(--black-border);
+}
 
 /* FOOTER */
