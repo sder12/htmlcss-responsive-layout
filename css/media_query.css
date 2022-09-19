@@ -5,21 +5,46 @@
     width: 90%;
     margin: 0 auto;
   }
+
+  /* Section 1 About us */
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1em;
+  }
+  .cards .card {
+    width: calc(100% / 3 - var(--gap-card));
+    margin-bottom: calc(var(--gap-card) / 3);
+  }
+  .cards .card:first-child {
+    width: calc((100% / 3) * 2 - (var(--gap-card) / 3));
+  }
+
 }
 
 /* DESKTOP */
 @media screen and (min-width: 992px) {
+  /* HEADER */
   .container {
     width: 90%;
     margin: 0 auto;
     max-width: 1000px;
   }
-
   .hamburger {
     display: none;
   }
-
-  .navigation{
+  .navigation {
     display: block;
+  }
+
+  /*Section 1 About us*/
+  .card:first-child {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5em;
+  }
+  .card-img {
+    margin-top: 0;
   }
 }

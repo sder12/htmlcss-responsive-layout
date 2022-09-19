@@ -32,6 +32,8 @@ html{
     /* Margin */
     --mb-cards: 2em;
     --padding-cards: 1.5em;
+    /* Gap */
+    --gap-card: 1em;
 }
 
 

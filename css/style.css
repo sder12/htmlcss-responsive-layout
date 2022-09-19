@@ -47,6 +47,7 @@ header {
 }
 
 .card-img {
+  margin-top: 1em;
   /* DEBUG */
   background-color: lightpink;
   border: var(--black-border);
