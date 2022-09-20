@@ -131,6 +131,7 @@ header {
 /* Section 6 CTA */
 #call-to-action {
   background-color: var(--secondary-color);
+  padding: 1.4em 0;
 }
 #call-to-action,
 footer {
@@ -188,11 +189,15 @@ footer {
   background-color: var(--secondary-color);
   color: white;
   font-size: 1.2rem;
-  padding: .5em 1.2em;
+  padding: .5em 2em;
 }
 .btn-white {
   background-color: white;
   color: var(--secondary-color);
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  padding: 1em 3.5em;
+  margin: 2.8em 0;
 }
 .btn-blue {
   background-color: var(--primary-color);
@@ -355,3 +360,34 @@ header .navigation ul li a {
   color: var(--secondary-color);
   font-size: 2.5rem;
 }
+
+#call-to-action .container h4,
+#call-to-action .container h3,
+#call-to-action .container p,
+#call-to-action .container ul li a{
+  color: white;
+}
+#call-to-action .container h4{
+  font-size: 1rem;
+  letter-spacing: .2em;
+  font-weight: lighter;
+  margin-bottom: 1em;
+}
+#call-to-action .container h2{
+  color: #FDC15F;
+  margin: .2em 0;
+}
+#call-to-action .container h3{
+  font-size: 2.4rem;
+}
+#call-to-action .container p{
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+#call-to-action ul li{
+  display: inline-block;
+}
+#call-to-action ul li:nth-of-type(3){
+  text-decoration: underline;
+}
+

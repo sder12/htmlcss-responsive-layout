@@ -1,0 +1,11 @@
+
+- Se ho un'img con un elemento es.vettoriale sopra ad essa 
+li posso raggruppare dentro a un tag <figure>
+- per spaziare lettere uso proprietà: letter-spacing
+- IMG ROTONDE
+    1. img è quadrata uso border-radius: 50%
+    2. img rettangolare le dò width=height=dimensione in px/em/rem/vw
+        + object-fit: cover;
+        + border-radius: 50%;
+    NB se img si deforma ed è un flex item uso flex-shrink: 0;
+- cerco di non numerare le selection perchè designer potrebbe farmele spostare in futuro
