@@ -391,3 +391,18 @@ header .navigation ul li a {
   text-decoration: underline;
 }
 
+/* Footer */
+footer{
+  color: white;
+}
+footer p,
+footer span{
+  font-size: 1.2em;
+}
+footer p{
+  margin-bottom: 3em;
+}
+.footer-a{
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
