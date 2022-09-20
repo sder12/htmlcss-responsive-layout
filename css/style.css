@@ -87,13 +87,11 @@ header {
 #strategic {
   background-color: var(--secondary-color);
 }
-
-#strategic .card,
-#strategic .card-txt {
-  /* DEBUG */
-  background-color: rgb(255, 139, 156);
-  border: var(--black-border);
+#strategic .card{
+  background-color: white;
+  text-align: center;
 }
+
 
 /*Section 3 Partners*/
 #partners .card {
@@ -225,7 +223,7 @@ header .navigation ul li a{
   font-size: 1.2rem;
 }
 
-/* 1 About us */
+/* 1 About us---------- */
 
 #about-us p{
   line-height: 2.8rem;
@@ -255,4 +253,20 @@ header .navigation ul li a{
 /* Text Align */
 #about-us .card.card:not(:first-child){
   text-align: center;
+}
+
+/* 2 Strategic Planning */
+#strategic .card-txt{
+  color: white;
+}
+
+#strategic .card-txt h4,
+#strategic .card-txt p{
+  margin-top: 1em;
+}
+
+#strategic .card p{
+  font-style: italic;
+  margin-top: 1em;
+  margin-bottom: 3em;
 }

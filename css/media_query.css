@@ -108,14 +108,27 @@
   /*Section 2 Strategic Planning*/
   #strategic .row {
     display: flex;
-    justify-content: space-between;
-    gap: 1em;
+    justify-content: space-between;   
+    align-items: baseline;
+    gap: 3em;
   }
 
   #strategic .card-txt {
+    width: 60%;
     margin-bottom: 0;
   }
 
+  #strategic .card-txt img{
+    width: 70%;
+  }
+  
+  #strategic .card{
+    width: 40%;
+  }
+
+  #strategic .card img{
+    width: 80%;
+  }
   /*Section 3 Partners*/
 
   /*Section 4 Benefits*/
