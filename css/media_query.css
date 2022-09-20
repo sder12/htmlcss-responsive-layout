@@ -104,6 +104,12 @@
     margin-bottom: 5em;
   }
 
+  #quote .quote-image figure span {
+    left: 60%;
+    top: -.2em;   
+    font-size: 16rem;  
+  }
+
   /* Section 6 Call to Action */
   /* Footer */
   #call-to-action .container,

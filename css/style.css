@@ -116,15 +116,19 @@ header {
 
 #quote .quote-image figure img {
   width: 80%;
+}
+#quote .quote-image figure{
   position: relative;
 }
 
 #quote .quote-image figure span {
+  display: block;
   position: absolute;
   z-index: 2;
-  right: 20%;
+  left: 60%;
+  top: -.2em;
   color: var(--secondary-color);
-  font-size: 25rem;
+  font-size: 22rem;  
 }
 
 /* Section 6 CTA */
