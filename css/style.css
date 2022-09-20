@@ -168,6 +168,10 @@ footer {
 .btn-purple {
   background-color: var(--secondary-color);
   color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  padding: .5em 3em;
 }
 .btn-white {
   background-color: white;
@@ -293,7 +297,24 @@ header .navigation ul li a {
   margin-top: .4em;
 }
 
-/*
-#partners .partner-quote
-p
-span */
+/* Section 4 Benefits  */
+#benefits h3{
+  color: white;
+  text-align: center;
+  margin: .8em 0;
+}
+
+#benefits .card h2,
+#benefits .card h4{
+  color: var(--secondary-color);
+}
+
+#benefits .card h2,
+#benefits .card h4,
+#benefits .card p{
+  margin-bottom: 1rem;
+}
+
+#benefits .card p{
+  line-height: 2.2rem;
+}

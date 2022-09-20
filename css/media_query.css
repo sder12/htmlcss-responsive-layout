@@ -154,6 +154,9 @@
   /* #benefits .cards .card {
     width: calc(100% / 3 - (var(--gap-card)) * 2 / 3);
   } */
+  #benefits .card h4{
+    font-size: 2rem;
+  }
 
   /* Section 6 Call to Action */
 
