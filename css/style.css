@@ -55,22 +55,24 @@ header {
 /* Section 1 About us */
 #about-us .cards .card {
   background-color: var(--light-primary-color);
-  /* DEBUG */
-  border: var(--black-border);
+  position: relative;
 }
 
-#about-us .card-img {
+#about-us .cards .card .card-img {
   margin-top: 1em;
-  /* DEBUG */
-  background-color: lightpink;
-  border: var(--black-border);
+  text-align: center; 
+}
+/* #about-us .card .card-text {  
+  position: relative;
 }
 
-#about-us .card-text {
-  /* DEBUG */
-  background-color: rgb(255, 139, 156);
-  border: var(--black-border);
-}
+#about-us .cards .card .card-img{
+  position: absolute;
+  z-index: 3;
+  bottom: -5px;  
+} */
+
+
 
 /* Section 2 Strategic Planning */
 #strategic {
@@ -105,7 +107,7 @@ header {
   border: var(--black-border);
 }
 
-/*Section 4 Partners*/
+/*Section 4 Benefits*/
 #benefits {
   background-color: var(--secondary-color);
 }
@@ -125,43 +127,43 @@ header {
 #call-to-action {
   background-color: var(--secondary-color);
 }
-#call-to-action, footer{
+#call-to-action,
+footer {
   text-align: center;
 }
 
 /* FOOTER */
 footer {
-  /* DEBUG */
-  background-color: lightslategray;
+  background-color: var(--footer-color);
 }
 
-/* IMAGES */
-#about-us .card-img img{
+/* IMAGES ------------------------------------------*/
+#about-us .card-img img {
   width: 90%;
 }
 #partners .partner-img img {
- width: 20rem;
- height: 20rem;
- object-fit: cover;
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
 }
 #quote .quote-img img {
   width: 20%;
 }
-.img-round{
+.img-round {
   border-radius: 50%;
 }
 
-/* BUTTONS */
+/* BUTTONS -----------------------------------------*/
 .btn {
   padding: 1em 2em;
-  border-radius: 4em;  
+  border-radius: 4em;
   display: inline-block;
   /* DEBUG */
   margin: 1em 0;
 }
-.btn-white-black{
+.btn-white-black {
   padding: 1em 2em;
-  border-radius: 4em;  
+  border-radius: 4em;
   background-color: white;
   color: black;
 }
@@ -177,9 +179,11 @@ footer {
   background-color: white;
   color: var(--secondary-color);
 }
-.btn-blue{
+.btn-blue {
   background-color: var(--primary-color);
   color: white;
+  font-weight: bold;
+  letter-spacing: .2rem;
 }
 .btn-round {
   padding: 1.5em 1.7em;
@@ -188,3 +192,53 @@ footer {
   color: black;
 }
 
+/* Typography ----------------------------------------*/
+/* COMMON */
+h2 {
+  font-size: 5rem;
+}
+h3 {
+  font-size: 4rem;
+}
+h4 {
+  font-size: 3rem;
+}
+h5 {
+  font-size: 2rem;
+}
+
+p{
+  font-size: 1.4rem;
+}
+
+/* 1 About us */
+
+#about-us p{
+  line-height: 2.8rem;
+  font-weight: bold;
+  color: var(--text-about);
+}
+
+#about-us h5:not(:first-child), 
+#about-us p{
+  margin-top: 1em;
+}
+#about-us .card-text p{
+  margin-bottom: 1em;
+}
+
+/* Typo Color */
+#about-us h5, 
+#about-us .card i:not(.fa-apple){
+  color: var(--primary-color);
+}
+
+/* Icon Dimensions */
+#about-us .card i:not(.fa-apple){
+  font-size: 10rem;
+}
+
+/* Text Align */
+#about-us .card.card:not(:first-child){
+  text-align: center;
+}
