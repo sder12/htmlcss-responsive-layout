@@ -32,6 +32,19 @@
   #about-us .cards .card:last-child {
     margin-bottom: var(--mb-cards);
   }
+
+  #about-us .cards .card .card-img {
+    text-align: left;
+  }
+
+  #about-us .cards .card .card-img img {
+    width: 70%;
+  }
+  #about-us .cards .card:nth-child(1),
+  #about-us .cards .card:nth-child(2) {
+    margin-bottom: 0px;
+  }
+
   /* Icon Dimensions */
   #about-us .card i:not(.fa-apple) {
     font-size: 6rem;
@@ -87,9 +100,9 @@
   #quote .quote-image h4 {
     font-size: 2rem;
   }
-  #quote .quote-txt p:nth-of-type(2){
+  #quote .quote-txt p:nth-of-type(2) {
     margin-bottom: 5em;
-  } 
+  }
 
   /* Section 6 Call to Action */
   /* Footer */
@@ -125,13 +138,25 @@
     gap: 0.5em;
   }
   #about-us .card:first-child .card-text {
-    width: 60%;
+    width: 50%;
   }
   #about-us .card:first-child .card-img {
-    width: 40%;
+    width: 50%;
   }
   #about-us .card-img {
     margin-top: 0;
+  }
+  #about-us .card-img {
+    position: relative;
+  }
+  #about-us .card-img img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  #about-us .cards .card-text {
+    padding: 0;
   }
 
   /*Section 2 Strategic Planning*/
@@ -175,7 +200,6 @@
     font-size: 2rem;
   }
 
-  
   /*Section 5 Quote*/
   #quote .quote-txt p {
     padding-right: 3.2em;
