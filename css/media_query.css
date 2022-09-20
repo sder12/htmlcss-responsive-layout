@@ -24,6 +24,10 @@
   #partners .col .card {
     display: flex;
   }
+  #partners .col .card .partner-img{
+    flex-shrink: 0;
+  }
+  
   /*Section 4 Partners*/
   #benefits .cards {
     display: flex;
