@@ -16,6 +16,11 @@ header .container {
 
 header {
   background-color: var(--primary-color);
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .hamburger {
@@ -35,6 +40,10 @@ header {
   display: none;
 }
 /* MAIN */
+#about-us{
+  margin-top: 4rem;
+}
+
 /* Section Common */
 #about-us .cards .card,
 #strategic .card,
@@ -162,7 +171,7 @@ footer {
   margin: 1em 0;
 }
 .btn-white-black {
-  padding: 1em 2em;
+  padding: .3em 1em;
   border-radius: 4em;
   background-color: white;
   color: black;
@@ -209,6 +218,11 @@ h5 {
 
 p{
   font-size: 1.4rem;
+}
+
+/* Header index */
+header .navigation ul li a{
+  font-size: 1.2rem;
 }
 
 /* 1 About us */
