@@ -110,11 +110,22 @@ header {
 }
 
 /*Section 5 Quote*/
-#quote .quote-txt,
+
 #quote .quote-image {
-  /* DEBUG */
-  background-color: rgb(255, 139, 156);
-  border: var(--black-border);
+  margin-top: 3em;
+}
+
+#quote .quote-image figure img{
+  width: 80%;
+  position: relative;
+}
+
+#quote .quote-image figure span{
+  position: absolute;
+  z-index: 2;
+  right: 20%;
+  color: var(--secondary-color);
+  font-size: 25rem;
 }
 
 /* Section 6 CTA */
@@ -172,6 +183,12 @@ footer {
   font-weight: bold;
   letter-spacing: 0.2rem;
   padding: .5em 3em;
+}
+.btn-purple-light {
+  background-color: var(--secondary-color);
+  color: white;
+  font-size: 1.2rem;
+  padding: .5em 1.2em;
 }
 .btn-white {
   background-color: white;
@@ -317,4 +334,24 @@ header .navigation ul li a {
 
 #benefits .card p{
   line-height: 2.2rem;
+}
+
+/* Section 5 Quote About us */
+
+#quote .quote-txt h2{
+  color: var(--secondary-color);
+  margin-bottom: .5em;
+}
+
+#quote .quote-txt p{
+  line-height: 2.2rem;
+}
+#quote .quote-txt :nth-child(2){
+  margin-bottom: 1em;
+}
+
+#quote .quote-image h4{
+  padding: .5em 0;
+  color: var(--secondary-color);
+  font-size: 2.5rem;
 }

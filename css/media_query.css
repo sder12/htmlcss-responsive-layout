@@ -47,15 +47,13 @@
     flex-shrink: 0;
   }
   #partners .partner-quote p,
-  #partners .partner-quote span {    
+  #partners .partner-quote span {
     text-align: left;
   }
   #partners .partners-txt h3 {
     font-size: 3rem;
-    margin-top: .5em;
+    margin-top: 0.5em;
   }
-
-
 
   /*Section 4 Benefits*/
   #benefits .cards {
@@ -75,6 +73,23 @@
   #quote .container {
     display: flex;
   }
+  #quote .quote-txt {
+    width: 70%;
+  }
+  #quote .quote-image {
+    width: 30%;
+  }
+  #quote .quote-txt p {
+    font-size: 1.4rem;
+    line-height: 3rem;
+    padding-right: 2.2em;
+  }
+  #quote .quote-image h4 {
+    font-size: 2rem;
+  }
+  #quote .quote-txt p:nth-of-type(2){
+    margin-bottom: 5em;
+  } 
 
   /* Section 6 Call to Action */
   /* Footer */
@@ -106,21 +121,20 @@
     justify-content: space-between;
     gap: 0.5em;
   }
-  #about-us .card:first-child .card-text{
+  #about-us .card:first-child .card-text {
     width: 60%;
   }
-  #about-us .card:first-child .card-img{
+  #about-us .card:first-child .card-img {
     width: 40%;
   }
   #about-us .card-img {
     margin-top: 0;
   }
 
-
   /*Section 2 Strategic Planning*/
   #strategic .row {
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between;
     align-items: baseline;
     gap: 3em;
   }
@@ -130,21 +144,21 @@
     margin-bottom: 0;
   }
 
-  #strategic .card-txt img{
+  #strategic .card-txt img {
     width: 70%;
   }
-  
-  #strategic .card{
+
+  #strategic .card {
     width: 40%;
   }
 
-  #strategic .card img{
+  #strategic .card img {
     width: 80%;
   }
   /*Section 3 Partners*/
- 
-   #partners .col .card {    
-    gap: 3em;   
+
+  #partners .col .card {
+    gap: 3em;
   }
 
   /*Section 4 Benefits*/
@@ -154,8 +168,14 @@
   /* #benefits .cards .card {
     width: calc(100% / 3 - (var(--gap-card)) * 2 / 3);
   } */
-  #benefits .card h4{
+  #benefits .card h4 {
     font-size: 2rem;
+  }
+
+  
+  /*Section 5 Quote*/
+  #quote .quote-txt p {
+    padding-right: 3.2em;
   }
 
   /* Section 6 Call to Action */
