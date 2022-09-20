@@ -40,10 +40,22 @@
   /*Section 3 Partners*/
   #partners .col .card {
     display: flex;
+    gap: 1em;
+    align-items: center;
   }
   #partners .col .card .partner-img {
     flex-shrink: 0;
   }
+  #partners .partner-quote p,
+  #partners .partner-quote span {    
+    text-align: left;
+  }
+  #partners .partners-txt h3 {
+    font-size: 3rem;
+    margin-top: .5em;
+  }
+
+
 
   /*Section 4 Benefits*/
   #benefits .cards {
@@ -130,6 +142,10 @@
     width: 80%;
   }
   /*Section 3 Partners*/
+ 
+   #partners .col .card {    
+    gap: 3em;   
+  }
 
   /*Section 4 Benefits*/
   #benefits .cards .card {
